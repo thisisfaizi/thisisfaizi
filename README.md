@@ -4,4 +4,4 @@ Founder of [Nowdigiverse](https://nowdigiverse.com) | WordPress Developer | Soft
 - 🔧 I specialize in WordPress, Elementor & WooCommerce customization
 - 🧠 5+ years of experience in web design and plugin development
 - 🌐 Visit my portfolio: [nowdigiverse.com](https://nowdigiverse.com)
-- ✉️ Reach me at: info@nowdigiverse.com
+- ✉️ Reach me at: founder@nowdigiverse.com
