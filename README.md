@@ -49,7 +49,7 @@ Here are some of the projects I’ve worked on recently:
 
 ## 📫 Connect with Me
 🌐 [nowdigiverse.com](https://nowdigiverse.com)  
-💼 [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/muhammad-faizan-nowdigiverse/))  
+💼 [LinkedIn](https://www.linkedin.com/in/muhammad-faizan-nowdigiverse/)
 📧 **founder@nowdigiverse.com**
 
 ---
