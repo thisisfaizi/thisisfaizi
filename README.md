@@ -44,7 +44,7 @@ With over 5 years of experience, I’ve helped clients across the world bring th
   *PHP | Elementor*  
   Custom Elementor widgets and extensions tailored for advanced design and functionality needs.
 
-  - 🔌 **product-tag-sync-for-hubspot**  
+- 🔌 **product-tag-sync-for-hubspot**  
   *PHP*  
   Automatically assign HubSpot contact tags based on WooCommerce product purchases. Map products to HubSpot custom property values and sync contacts on order completion.
 
