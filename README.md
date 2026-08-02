@@ -2,7 +2,7 @@
 
 # Muhammad Faizan
 
-<a href="https://nowdigiverse.com"><img src="https://readme-typing-svg.demolab.com/?lines=Software+Engineer;WordPress+%26+WooCommerce+Plugin+Developer;Flutter+%2F+Dart+Application+Developer;Founder+at+Nowdigiverse&font=Fira%20Code&center=true&width=520&height=45&color=2F81F7&vCenter=true&pause=1000&size=20" alt="Software Engineer · WordPress and WooCommerce plugin developer · Flutter/Dart application developer · Founder at Nowdigiverse" /></a>
+<a href="https://nowdigiverse.com"><img src="https://readme-typing-svg.demolab.com/?lines=Software+Engineer;WordPress+%26+WooCommerce+Plugin+Developer;Flutter+%2F+Dart+Application+Developer;Founder+at+Nowdigiverse&font=Fira%20Code&center=true&width=650&height=45&color=2F81F7&vCenter=true&pause=1000&size=20" alt="Software Engineer · WordPress and WooCommerce plugin developer · Flutter/Dart application developer · Founder at Nowdigiverse" /></a>
 
 <p>
 I build <b>production WordPress plugins</b> and <b>offline-first Flutter applications</b> —<br/>
