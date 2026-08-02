@@ -1,17 +1,27 @@
 # Renders the language-breakdown and contribution-calendar cards INTO this repo,
-# so the profile never shows a broken image when a third-party host is down.
+# so the profile never shows a broken image when a third-party host goes down.
 #
-# Optional but recommended: add a repository secret named METRICS_TOKEN holding a
-# classic PAT with the `repo` scope. Without it the cards only see public repos;
-# with it they also count private work (which is most of it).
+# PREREQUISITE — this workflow cannot run without it:
+#   lowlighter/metrics requires a *personal access token*; the automatic
+#   ${{ secrets.GITHUB_TOKEN }} is explicitly not accepted, because the action
+#   reads user-level data that a repo-scoped token cannot see.
+#
+#   1. github.com/settings/tokens -> generate a classic token.
+#      No scopes needed for public data; tick `repo` to include private repos
+#      in the language breakdown (which is where most of the work is).
+#   2. This repo -> Settings -> Secrets and variables -> Actions ->
+#      New repository secret, named METRICS_TOKEN.
+#   3. Actions tab -> "Profile metrics" -> Run workflow.
+#   4. Once the two SVGs are committed, uncomment the matching <img> tags
+#      in README.md.
 name: Profile metrics
 
 on:
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
+  # No `push` trigger on purpose: this job commits back to the default branch,
+  # which would re-trigger itself in a loop.
 
 permissions:
   contents: write
@@ -21,28 +31,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Language breakdown
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: thisisfaizi
           filename: metrics.plugin.languages.details.svg
           base: ""
           config_timezone: Asia/Karachi
+          plugins_errors_fatal: no
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
 
       - name: Contribution calendar
-        uses: lowlighter/metrics@latest
+        uses: lowlighter/metrics@v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           user: thisisfaizi
           filename: metrics.plugin.isocalendar.svg
           base: ""
           config_timezone: Asia/Karachi
+          plugins_errors_fatal: no
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year

@@ -139,10 +139,15 @@ Selected sites designed, built and maintained end to end.
 
 <br/>
 
-<!-- The two cards below are generated inside this repo by .github/workflows/metrics.yml,
-     so they never break when a third-party rendering host goes down. -->
+<!-- Self-hosted cards, generated inside this repo by .github/workflows/metrics.yml,
+     so they never break when a third-party rendering host goes down.
+     Uncomment the two <img> tags below AFTER the first successful run of the
+     "Profile metrics" workflow — it needs the METRICS_TOKEN secret first
+     (see the setup steps at the top of that workflow file).
+
 <img src="./metrics.plugin.languages.details.svg" alt="Language breakdown across all repositories" width="49%" />
 <img src="./metrics.plugin.isocalendar.svg" alt="Contribution calendar" width="49%" />
+-->
 
 <br/>
 
