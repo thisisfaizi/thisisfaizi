@@ -20,10 +20,10 @@ commercial WooCommerce extensions, AI tooling for Elementor, and double-entry ac
 
 ## What I do
 
-- **Commercial WordPress plugins** — WooCommerce extensions shipped to real stores: reviews, address autocomplete, dynamic pricing, image-upload personalisation, licensing.
-- **AI developer tooling** — [Elementor MCP](https://github.com/thisisfaizi/elementor-mcp), a WordPress plugin exposing **118+ MCP tools** so an AI agent can build and edit Elementor page designs programmatically.
-- **Offline-first business software** — a Flutter/Dart accounting and distribution platform built on a single double-entry ledger, integer-paisa money, and a server-cursor sync engine across Windows and Android.
-- **Multi-language SDKs** — one licensing API, four first-party client libraries (PHP, JavaScript, Python, Dart).
+- **Commercial WordPress plugins** — WooCommerce extensions shipped to real stores: reviews, address autocomplete, dynamic pricing, image-upload personalisation, licensing. Free tiers on WordPress.org, Pro tiers via Freemius.
+- **Offline-first business software** — Flutter/Dart accounting and distribution platforms built on double-entry ledgers, integer money and server-cursor sync across Windows and Android.
+- **Multi-language SDKs** — one licensing API with four first-party client libraries (PHP, JavaScript, Python, Dart).
+- **Full-stack product work** — Laravel APIs, TypeScript web apps, and the documentation sites and release tooling around them.
 
 <sub>📍 Chishtian, Punjab, Pakistan · Founder &amp; CEO at <a href="https://nowdigiverse.com">Nowdigiverse</a> · 5+ years shipping for clients worldwide</sub>
 
@@ -31,50 +31,42 @@ commercial WooCommerce extensions, AI tooling for Elementor, and double-entry ac
 
 ## 🔭 Currently building
 
-**Super Ledger** — a modular business-management and accounting product for Pakistani SMBs.
-Flutter 3 / Dart 3 on Windows and Android over one shared, Flutter-free Dart core.
+Several products in parallel, across WordPress, Flutter and full-stack web.
 
-<table>
-<tr><td>⚖️</td><td><b>One double-entry ledger</b> — every operational action posts one balanced journal entry in real time; modules never keep their own books.</td></tr>
-<tr><td>🔢</td><td><b>Integer money</b> — paisa as <code>int</code>, quantities scaled to 4 decimals. No floating point anywhere in the accounting path.</td></tr>
-<tr><td>🔒</td><td><b>Append-only history</b> — posted rows are immutable and UUID-stamped; corrections are reversing entries, never edits.</td></tr>
-<tr><td>🔄</td><td><b>Offline-first sync</b> — SQLite (Drift) on device, Postgres in the office, a server-assigned cursor over an append-only change log.</td></tr>
-<tr><td>🌐</td><td><b>Bilingual EN / اردو</b> with full RTL support.</td></tr>
-</table>
+| | Building | Stack |
+| :-- | :--- | :--- |
+| ⚖️ | **Super Ledger** — modular double-entry accounting and distribution platform for SMBs. Desktop back office plus Android salesman app, offline-first, bilingual EN/اردو. | `Flutter` `Dart` `Drift` `Postgres` |
+| 📍 | **Addressly** — Blocks-native address autocomplete for WooCommerce. Free on WordPress.org, Pro via Freemius. | `PHP` `JS` `Places API` |
+| ⭐ | **NDV Reviews + Pro** — self-hosted WooCommerce reviews: multi-criteria ratings, photo and video reviews, reminders, ESP connectors. | `PHP` `WooCommerce` |
+| 🔑 | **WP License Manager** — self-hosted licensing server with first-party SDKs in four languages. | `PHP` `JS` `Python` `Dart` |
+| 🖼️ | **Custom Product Image Upload + Pro** — customer image upload and cropping for personalised WooCommerce products. | `PHP` `WooCommerce` |
+| 🏭 | **Manufacturing Cost System** — production costing and BOM engine. | `PHP` |
+| 📒 | **LedgerDesk** — desktop bookkeeping companion app. | `Dart` `Flutter` |
+| 🚗 | **Laser Light Drive-in** — booking and ticketing web app for drive-in events. | `TypeScript` |
+| 🤝 | **P2P SkillShare** — peer-to-peer skill-sharing platform: Flutter app on a Laravel API with auth, messaging and reviews. | `Flutter` `Laravel` |
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Open Source
+
+My own public repositories — plugins you can read, install and run.
 
 | Project | Stack | What it does |
 | :--- | :--- | :--- |
-| **[elementor-mcp](https://github.com/thisisfaizi/elementor-mcp)** · [site ↗](https://emcp.msrbuilds.com) | `PHP` `MCP` `Elementor` | Turns Elementor into an **MCP server** — 118+ AI-ready tools for building, editing and managing page designs programmatically. |
 | **[ndv-reviews](https://github.com/thisisfaizi/ndv-reviews)** | `PHP` `WooCommerce` | Self-hosted product reviews — multi-criteria ratings, photo reviews, working reminders, rich schema. No third-party account. |
+| **[custom-product-image-upload](https://github.com/thisisfaizi/custom-product-image-upload)** | `PHP` `WooCommerce` | Lets customers (guests included) upload and crop images on designated products before add-to-cart. |
 | **[product-tag-sync-for-hubspot](https://github.com/thisisfaizi/product-tag-sync-for-hubspot)** | `PHP` `HubSpot API` | Maps WooCommerce products to HubSpot custom properties and syncs contact tags on order completion. |
 | **[NDV-Woo-Calculator](https://github.com/thisisfaizi/NDV-Woo-Calculator)** | `PHP` `Elementor Pro` | Bridges Elementor Pro Forms and WooCommerce for dynamic, input-driven product pricing. |
 | **[google-reviews-for-wordpress](https://github.com/thisisfaizi/google-reviews-for-wordpress)** | `PHP` `WordPress` | Widget and shortcode that render Google Maps business reviews — no API key required. |
-| **[acf-star-rating-field-extended](https://github.com/thisisfaizi/acf-star-rating-field-extended)** | `PHP` `ACF` | A star-rating custom field for ACF, Elementor-enabled. |
-| **[custom-product-image-upload](https://github.com/thisisfaizi/custom-product-image-upload)** | `PHP` `WooCommerce` | Lets customers (guests included) upload and crop images on designated products before add-to-cart. |
+| **[Woocommerce-Image-Upload-Addon-Free](https://github.com/thisisfaizi/Woocommerce-Image-Upload-Addon-Free)** | `PHP` `WooCommerce` | The free/lite edition of the product image-upload addon, i18n-ready. |
+| **[Elementor-MCP-Skill](https://github.com/thisisfaizi/Elementor-MCP-Skill)** | `AI Agent Skill` | An agent skill for driving Elementor page builds through MCP tooling. |
 
 <details>
-<summary><b>🔒 Selected private &amp; client products</b> — commercial and in-house work (source not public)</summary>
+<summary><b>🔒 More commercial &amp; in-house work</b> — shipped to clients, source not public</summary>
 
 <br/>
 
-**Products**
-
-| Product | Stack | Summary |
-| :--- | :--- | :--- |
-| **Super Ledger** | `Flutter` `Dart` `Drift/SQLite` `Postgres` | Modular double-entry accounting and distribution platform. Desktop back office plus Android salesman app over one shared core. |
-| **Addressly** | `PHP` `Google Places API` | Blocks-native address autocomplete for WooCommerce. Free on WordPress.org, Pro via Freemius. |
-| **NDV Reviews Pro** | `PHP` `WooCommerce` | Unlimited criteria, video reviews, admin replies, coupon-for-review, ESP connectors. |
-| **WP License Manager** | `PHP` + `JS` · `Python` · `Dart` SDKs | Self-hosted licensing server with four first-party client libraries. |
-| **Manufacturing Cost System** | `PHP` | Production costing and BOM engine for manufacturing clients. |
-| **P2P SkillShare** | `Flutter` · `Laravel` | Peer-to-peer skill-sharing platform — Flutter app (iOS + Android) on a Laravel API with auth, messaging and reviews. |
-| **Nowdigiverse Product Engine** | `PHP` | Core engine powering specialised WooCommerce product behaviour across client builds. |
-
-**WooCommerce extensions**
-
+- **Nowdigiverse Product Engine** — core engine powering specialised WooCommerce product behaviour across client builds.
 - **Jewellery Price Calculator** — birthstone selection, metal choices, live price computation.
 - **Variations Decoupler** — place variation swatches, price and add-to-cart anywhere on the page via Elementor.
 - **Showit Product Template** — Complete the Look, feature icons, accordions, gallery preview. Theme-independent.
