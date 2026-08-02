@@ -1,0 +1,48 @@
+# Renders the language-breakdown and contribution-calendar cards INTO this repo,
+# so the profile never shows a broken image when a third-party host is down.
+#
+# Optional but recommended: add a repository secret named METRICS_TOKEN holding a
+# classic PAT with the `repo` scope. Without it the cards only see public repos;
+# with it they also count private work (which is most of it).
+name: Profile metrics
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Language breakdown
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: thisisfaizi
+          filename: metrics.plugin.languages.details.svg
+          base: ""
+          config_timezone: Asia/Karachi
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+
+      - name: Contribution calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: thisisfaizi
+          filename: metrics.plugin.isocalendar.svg
+          base: ""
+          config_timezone: Asia/Karachi
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
