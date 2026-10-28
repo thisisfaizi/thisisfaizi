@@ -37,9 +37,9 @@ Several products in parallel, across WordPress, Flutter and full-stack web.
 | :-- | :--- | :--- |
 | ⚖️ | **Super Ledger** — modular double-entry accounting and distribution platform for SMBs. Desktop back office plus Android salesman app, offline-first, bilingual EN/اردو. | `Flutter` `Dart` `Drift` `Postgres` |
 | 📍 | **Addressly** — Blocks-native address autocomplete for WooCommerce. Free on WordPress.org, Pro via Freemius. | `PHP` `JS` `Places API` |
-| ⭐ | **NDV Reviews + Pro** — self-hosted WooCommerce reviews: multi-criteria ratings, photo and video reviews, reminders, ESP connectors. | `PHP` `WooCommerce` |
-| 🔑 | **WP License Manager** — self-hosted licensing server with first-party SDKs in four languages. | `PHP` `JS` `Python` `Dart` |
-| 🖼️ | **Custom Product Image Upload + Pro** — customer image upload and cropping for personalised WooCommerce products. | `PHP` `WooCommerce` |
+| ⭐ | **[Rosette Reviews](https://github.com/thisisfaizi/Rosette-Reviews) + Pro** — self-hosted WooCommerce reviews: multi-criteria ratings, photo and video reviews, reminders, ESP connectors. | `PHP` `WooCommerce` |
+| 🔑 | **[WP License Manager](https://github.com/thisisfaizi/wp-license-manager)** — self-hosted licensing server with first-party SDKs in four languages. | `PHP` `JS` `Python` `Dart` |
+| 🖼️ | **[NDV Product Image Upload](https://github.com/thisisfaizi/NDV-Product-Image-Upload-for-WooCommerce) + Pro** — customer image upload and cropping for personalised WooCommerce products. | `PHP` `WooCommerce` |
 | 🏭 | **Manufacturing Cost System** — production costing and BOM engine. | `PHP` |
 | 📒 | **LedgerDesk** — desktop bookkeeping companion app. | `Dart` `Flutter` |
 | 🚗 | **Laser Light Drive-in** — booking and ticketing web app for drive-in events. | `TypeScript` |
@@ -53,13 +53,16 @@ My own public repositories — plugins you can read, install and run.
 
 | Project | Stack | What it does |
 | :--- | :--- | :--- |
-| **[ndv-reviews](https://github.com/thisisfaizi/ndv-reviews)** | `PHP` `WooCommerce` | Self-hosted product reviews — multi-criteria ratings, photo reviews, working reminders, rich schema. No third-party account. |
-| **[custom-product-image-upload](https://github.com/thisisfaizi/custom-product-image-upload)** | `PHP` `WooCommerce` | Lets customers (guests included) upload and crop images on designated products before add-to-cart. |
-| **[product-tag-sync-for-hubspot](https://github.com/thisisfaizi/product-tag-sync-for-hubspot)** | `PHP` `HubSpot API` | Maps WooCommerce products to HubSpot custom properties and syncs contact tags on order completion. |
+| **[WP License Manager](https://github.com/thisisfaizi/wp-license-manager)** | `PHP` `WooCommerce` | Self-hosted software license server for WordPress plugins, themes and apps: Ed25519-signed keys, offline verification, subscriptions. An open-source alternative to Freemius and EDD Software Licensing. |
+| **SDKs:** [PHP](https://github.com/thisisfaizi/wplm-php) · [JS/TS](https://github.com/thisisfaizi/wplm-js) · [Python](https://github.com/thisisfaizi/wplm-python) · [Dart/Flutter](https://github.com/thisisfaizi/wplm-dart) | `PHP` `TS` `Python` `Dart` | Client libraries for WP License Manager: activate, validate and verify license keys offline. |
+| **[Rosette Reviews](https://github.com/thisisfaizi/Rosette-Reviews)** | `PHP` `WooCommerce` | Self-hosted WooCommerce product reviews: multi-criteria ratings, photo reviews, review reminders, rich schema. No third-party account. |
+| **[NDV Product Image Upload](https://github.com/thisisfaizi/NDV-Product-Image-Upload-for-WooCommerce)** | `PHP` `WooCommerce` | Customers (guests included) upload and crop images and PDFs on product pages before add-to-cart. [Free on WordPress.org](https://wordpress.org/plugins/nowdigiverse-product-image-upload/). |
+| **[WP Launcher Lite](https://github.com/thisisfaizi/wp-launcher-lite)** | `PHP` | Temporary WordPress demo sites for plugin and theme demos on plain shared hosting, no Docker. |
+| **[product-tag-sync-for-hubspot](https://github.com/thisisfaizi/product-tag-sync-for-hubspot)** | `PHP` `HubSpot API` | Maps WooCommerce products to HubSpot custom properties and syncs contact tags on order completion. [Free on WordPress.org](https://wordpress.org/plugins/product-tag-sync-for-hubspot/). |
 | **[NDV-Woo-Calculator](https://github.com/thisisfaizi/NDV-Woo-Calculator)** | `PHP` `Elementor Pro` | Bridges Elementor Pro Forms and WooCommerce for dynamic, input-driven product pricing. |
 | **[google-reviews-for-wordpress](https://github.com/thisisfaizi/google-reviews-for-wordpress)** | `PHP` `WordPress` | Widget and shortcode that render Google Maps business reviews — no API key required. |
-| **[Woocommerce-Image-Upload-Addon-Free](https://github.com/thisisfaizi/Woocommerce-Image-Upload-Addon-Free)** | `PHP` `WooCommerce` | The free/lite edition of the product image-upload addon, i18n-ready. |
-| **[Elementor-MCP-Skill](https://github.com/thisisfaizi/Elementor-MCP-Skill)** | `AI Agent Skill` | An agent skill for driving Elementor page builds through MCP tooling. |
+| **[Video-Editing-Skill](https://github.com/thisisfaizi/Video-Editing-Skill)** | `Claude Skill` `Remotion` | A short-form video-editing house style packaged as Claude Agent Skills: Remotion reels, liquid-glass UI, three-pass sound design. |
+| **[Elementor-MCP-Skill](https://github.com/thisisfaizi/Elementor-MCP-Skill)** | `Claude Skill` `MCP` | Claude Code skill that rebuilds mockups and screenshots as native Elementor pages through the Elementor MCP server. |
 
 <details>
 <summary><b>🔒 More commercial &amp; in-house work</b> — shipped to clients, source not public</summary>
