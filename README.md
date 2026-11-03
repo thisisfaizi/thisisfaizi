@@ -11,7 +11,7 @@ commercial WooCommerce extensions, AI tooling for Elementor, and double-entry ac
 
 <a href="https://nowdigiverse.com"><img src="https://img.shields.io/badge/Website-nowdigiverse.com-2F81F7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
 <a href="https://www.linkedin.com/in/muhammad-faizan-nowdigiverse/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:founder@nowdigiverse.com"><img src="https://img.shields.io/badge/Email-founder@nowdigiverse.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="mailto:contactfaizansheikh@gmail.com"><img src="https://img.shields.io/badge/Email-contactfaizansheikh@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <img src="https://komarev.com/ghpvc/?username=thisisfaizi&style=for-the-badge&color=2F81F7&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
@@ -159,9 +159,9 @@ Selected sites designed, built and maintained end to end.
 
 ## 📫 Get in touch
 
-Open to **commercial plugin development**, **Flutter application work**, and **long-term client engagements**.
+Open to **AI automation work**, **WordPress &amp; custom websites**, **AI MVP products**, **commercial plugin development**, **Flutter application work**, and **long-term client engagements**.
 
-<a href="https://nowdigiverse.com"><b>nowdigiverse.com</b></a> · <a href="https://www.linkedin.com/in/muhammad-faizan-nowdigiverse/"><b>LinkedIn</b></a> · <a href="mailto:founder@nowdigiverse.com"><b>founder@nowdigiverse.com</b></a>
+<a href="https://nowdigiverse.com"><b>nowdigiverse.com</b></a> · <a href="https://www.linkedin.com/in/muhammad-faizan-nowdigiverse/"><b>LinkedIn</b></a> · <a href="mailto:contactfaizansheikh@gmail.com"><b>contactfaizansheikh@gmail.com</b></a>
 
 <br/>
 
